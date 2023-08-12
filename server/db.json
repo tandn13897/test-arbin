@@ -1,0 +1,620 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Device 1",
+      "location": "Home 1",
+      "currentTemperature": 35,
+      "currentHumidity": 60,
+      "status": "connected",
+      "open": false,
+      "details": {
+        "name": "Device 1",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 30
+          },
+          {
+            "time": 2,
+            "temp": 31
+          },
+          {
+            "time": 3,
+            "temp": 31
+          },
+          {
+            "time": 4,
+            "temp": 27
+          },
+          {
+            "time": 5,
+            "temp": 25
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 30
+          },
+          {
+            "time": 2,
+            "humi": 40
+          },
+          {
+            "time": 3,
+            "humi": 70
+          },
+          {
+            "time": 4,
+            "humi": 68
+          },
+          {
+            "time": 5,
+            "humi": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Device 2",
+      "location": "Home 2",
+      "currentTemperature": 31,
+      "currentHumidity": 58,
+      "status": "connected",
+      "open": false,
+      "details": {
+        "name": "Device 2",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 25
+          },
+          {
+            "time": 2,
+            "temp": 26
+          },
+          {
+            "time": 3,
+            "temp": 29
+          },
+          {
+            "time": 4,
+            "temp": 31
+          },
+          {
+            "time": 5,
+            "temp": 33
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 40
+          },
+          {
+            "time": 2,
+            "humi": 44
+          },
+          {
+            "time": 3,
+            "humi": 44
+          },
+          {
+            "time": 4,
+            "humi": 50
+          },
+          {
+            "time": 5,
+            "humi": 51
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Device 3",
+      "location": "Home 3",
+      "currentTemperature": 28,
+      "currentHumidity": 37,
+      "status": "connected",
+      "open": false,
+      "details": {
+        "name": "Device 3",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 30
+          },
+          {
+            "time": 2,
+            "temp": 33
+          },
+          {
+            "time": 3,
+            "temp": 27
+          },
+          {
+            "time": 4,
+            "temp": 27
+          },
+          {
+            "time": 5,
+            "temp": 25
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 68
+          },
+          {
+            "time": 2,
+            "humi": 79
+          },
+          {
+            "time": 3,
+            "humi": 80
+          },
+          {
+            "time": 4,
+            "humi": 80
+          },
+          {
+            "time": 5,
+            "humi": 85
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Device 4",
+      "location": "Home 4",
+      "currentTemperature": 35,
+      "currentHumidity": 60,
+      "status": "healthy",
+      "open": false,
+      "details": {
+        "name": "Device 4",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 30
+          },
+          {
+            "time": 2,
+            "temp": 31
+          },
+          {
+            "time": 3,
+            "temp": 31
+          },
+          {
+            "time": 4,
+            "temp": 27
+          },
+          {
+            "time": 5,
+            "temp": 25
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 30
+          },
+          {
+            "time": 2,
+            "humi": 40
+          },
+          {
+            "time": 3,
+            "humi": 70
+          },
+          {
+            "time": 4,
+            "humi": 68
+          },
+          {
+            "time": 5,
+            "humi": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Device 5",
+      "location": "Home 5",
+      "currentTemperature": 40,
+      "currentHumidity": 70,
+      "status": "disconnected",
+      "open": false,
+      "details": {
+        "name": "Device 5",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 30
+          },
+          {
+            "time": 2,
+            "temp": 31
+          },
+          {
+            "time": 3,
+            "temp": 31
+          },
+          {
+            "time": 4,
+            "temp": 45
+          },
+          {
+            "time": 5,
+            "temp": 48
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 20
+          },
+          {
+            "time": 2,
+            "humi": 40
+          },
+          {
+            "time": 3,
+            "humi": 50
+          },
+          {
+            "time": 4,
+            "humi": 68
+          },
+          {
+            "time": 5,
+            "humi": 61
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Device 6",
+      "location": "Home 6",
+      "currentTemperature": 35,
+      "currentHumidity": 60,
+      "status": "error",
+      "open": false,
+      "details": {
+        "name": "Device 6",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 30
+          },
+          {
+            "time": 2,
+            "temp": 31
+          },
+          {
+            "time": 3,
+            "temp": 31
+          },
+          {
+            "time": 4,
+            "temp": 27
+          },
+          {
+            "time": 5,
+            "temp": 25
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 30
+          },
+          {
+            "time": 2,
+            "humi": 40
+          },
+          {
+            "time": 3,
+            "humi": 70
+          },
+          {
+            "time": 4,
+            "humi": 68
+          },
+          {
+            "time": 5,
+            "humi": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Device 7",
+      "location": "Home 7",
+      "currentTemperature": 35,
+      "currentHumidity": 60,
+      "status": "connected",
+      "open": false,
+      "details": {
+        "name": "Device 7",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 30
+          },
+          {
+            "time": 2,
+            "temp": 31
+          },
+          {
+            "time": 3,
+            "temp": 31
+          },
+          {
+            "time": 4,
+            "temp": 27
+          },
+          {
+            "time": 5,
+            "temp": 25
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 30
+          },
+          {
+            "time": 2,
+            "humi": 40
+          },
+          {
+            "time": 3,
+            "humi": 70
+          },
+          {
+            "time": 4,
+            "humi": 68
+          },
+          {
+            "time": 5,
+            "humi": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Device 8",
+      "location": "Home 8",
+      "currentTemperature": 35,
+      "currentHumidity": 60,
+      "status": "error",
+      "open": false,
+      "details": {
+        "name": "Device 8",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 30
+          },
+          {
+            "time": 2,
+            "temp": 31
+          },
+          {
+            "time": 3,
+            "temp": 31
+          },
+          {
+            "time": 4,
+            "temp": 27
+          },
+          {
+            "time": 5,
+            "temp": 25
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 30
+          },
+          {
+            "time": 2,
+            "humi": 40
+          },
+          {
+            "time": 3,
+            "humi": 70
+          },
+          {
+            "time": 4,
+            "humi": 68
+          },
+          {
+            "time": 5,
+            "humi": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Device 9",
+      "location": "Home 9",
+      "currentTemperature": 35,
+      "currentHumidity": 60,
+      "status": "disconnected",
+      "open": false,
+      "details": {
+        "name": "Device 9",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 30
+          },
+          {
+            "time": 2,
+            "temp": 31
+          },
+          {
+            "time": 3,
+            "temp": 31
+          },
+          {
+            "time": 4,
+            "temp": 27
+          },
+          {
+            "time": 5,
+            "temp": 25
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 30
+          },
+          {
+            "time": 2,
+            "humi": 40
+          },
+          {
+            "time": 3,
+            "humi": 70
+          },
+          {
+            "time": 4,
+            "humi": 68
+          },
+          {
+            "time": 5,
+            "humi": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Device 10",
+      "location": "Home 10",
+      "currentTemperature": 35,
+      "currentHumidity": 60,
+      "status": "connected",
+      "open": false,
+      "details": {
+        "name": "Device 10",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 30
+          },
+          {
+            "time": 2,
+            "temp": 31
+          },
+          {
+            "time": 3,
+            "temp": 31
+          },
+          {
+            "time": 4,
+            "temp": 27
+          },
+          {
+            "time": 5,
+            "temp": 25
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 30
+          },
+          {
+            "time": 2,
+            "humi": 40
+          },
+          {
+            "time": 3,
+            "humi": 70
+          },
+          {
+            "time": 4,
+            "humi": 68
+          },
+          {
+            "time": 5,
+            "humi": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Device 11",
+      "location": "Home 11",
+      "currentTemperature": 35,
+      "currentHumidity": 60,
+      "status": "healthy",
+      "open": false,
+      "details": {
+        "name": "Device 11",
+        "temperatureDataPoints": [
+          {
+            "time": 1,
+            "temp": 30
+          },
+          {
+            "time": 2,
+            "temp": 31
+          },
+          {
+            "time": 3,
+            "temp": 31
+          },
+          {
+            "time": 4,
+            "temp": 27
+          },
+          {
+            "time": 5,
+            "temp": 25
+          }
+        ],
+        "humidityDataPoints": [
+          {
+            "time": 1,
+            "humi": 30
+          },
+          {
+            "time": 2,
+            "humi": 40
+          },
+          {
+            "time": 3,
+            "humi": 70
+          },
+          {
+            "time": 4,
+            "humi": 68
+          },
+          {
+            "time": 5,
+            "humi": 80
+          }
+        ]
+      }
+    }
+  ]
+}
